@@ -1,0 +1,38 @@
+body{
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #c9c9c9, #ffffff 1px, #ffffff 1px, #ffffff);
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+.Montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.Bordered{
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 23px;
+    border-width: 4px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: outset;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 13px 17px 13px rgba(66,66,66,.53);
+}
