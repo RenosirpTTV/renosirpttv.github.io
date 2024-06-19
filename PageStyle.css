@@ -1,18 +1,17 @@
-body{
+body {
     background-color: #ffffff;
     opacity: 0.8;
     background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, #c9c9c9, #ffffff 1px, #ffffff 1px, #ffffff);
 }
-h1{
+h1 {
     text-align: center;
     font-size: 60px;
 }
-h2{
+h2 {
     text-align: center;
     font-size: 40px;
 }
-h3{
+h3 {
     text-align: center;
     font-size: 20px;
 }
@@ -22,7 +21,7 @@ h3{
     font-weight: 600;
     font-style: normal;
 }
-.Bordered{
+.Bordered {
     padding: 20px;
     margin-left: 25%;
     margin-right: 25%;
@@ -35,4 +34,53 @@ h3{
     text-align: center;
     border-radius: 30px;
     box-shadow: 13px 17px 13px rgba(66,66,66,.53);
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;   
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+}
+.ytActive{
+    background-color: #FF0000;
+}
+.gitActive{
+    background-color: #0388a6;
+}
+.twitchActive{
+    background-color: #6441a5 ;
+}
+.GAP {
+    margin-top: 75px;
+}
+.contactDisplay{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: none;
 }
