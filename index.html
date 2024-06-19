@@ -1,27 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="PageStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renosirp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="/image" href="/images/favicon.ico"/>
+    <script src="https://kit.fontawesome.com/316f6815bc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link rel="icon" href="/images/favicon.ico" type="image/ico">
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li style="float:right"><a class="ytActive" target="_blank" href="https://www.youtube.com/c/Renosirp">YouTube</a></li>
-        <li style="float:right"><a class="gitActive" target="_blank" href="https://github.com/RenosirpTTV">GitHub</a></li>
-        <li style="float:right"><a class="twitchActive" target="_blank" href="https://m.twitch.tv/renosirpttv/home">Twitch</a></li>
-    </ul>
-    <h1 class="Montserrat GAP">Home</h1>
-    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2 class="Montserrat">Welcome to my web page!</h1>
-        <p class="Bordered Montserrat"> About Me: <br>
-            My name is Henry, but online I go by Renosirp. <br>
-            I got my name from Skyrim (TES V), where the default name is 'Prisoner',
-            and since I'm not creative at all I simply wrote the name backwards.
-        </p>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo" class="top"><img src="images/favicon.png" class="fas fa-renoicon" alt="Icon of Renosirp"></i>Renosirp.com</a>
+            <div class="navbar__toggle top" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+              <li class="navbar__item"><a href="/" class="navbar__links">Home</a></li>
+              <li class="navbar__item"><a href="/contact.html" class="navbar__links">Contact</a></li>
+              <li class="navbar__item"><a href="/projects.html" class="navbar__links">Projects</a></li>
+              <li class="navbar__item"><a href="/about.html" class="navbar__links">About</a></li>
+              <li class="navbar__btn"><a href="/" class="button">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Renosirp.com</h1>
+                <h2>UK-Based Nerd</h2>
+                <p>A web page for my personal projects</p>
+                <button class="main__btn"><a href="/">More</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/programming.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <h1>This is H1 Testing</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>This is H2 Testing</h2>
+                <p>This is P Testing</p>
+                <button>Button Testing</button>
+            </div>
+            <div class="services__card">
+                <h2>This is H2 Testing</h2>
+                <p>This is P Testing</p>
+                <button>Button Testing</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Duplicate IGNORE</h2>
+                    <a href="/">Youtube</a>
+                    <a href="/">GitHub</a>
+                    <a href="/">Twitch</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Duplicate IGNORE</h2>
+                    <a href="/">Youtube</a>
+                    <a href="/">GitHub</a>
+                    <a href="/">Twitch</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Duplicate IGNORE</h2>
+                    <a href="/">Youtube</a>
+                    <a href="/">GitHub</a>
+                    <a href="/">Twitch</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Duplicate IGNORE</h2>
+                    <a href="/">Youtube</a>
+                    <a href="/">GitHub</a>
+                    <a href="/">Twitch</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo" class="top"><img src="images/favicon.png" class="fas fa-renoicon" alt="Icon of Renosirp"></i>Renosirp.com</a>
+            </div>
+            <p class="website__rights">© Henry Booher 2024. All rights reserved</p>
+            <div class="social__icons">
+                <a href="https://www.youtube.com/c/Renosirp" class="social__icon--link" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://m.twitch.tv/renosirpttv/home" class="social__icon--link" target="_blank">
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+                <a href="https://github.com/RenosirpTTV" class="social__icon--link" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
