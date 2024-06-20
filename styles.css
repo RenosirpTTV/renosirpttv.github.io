@@ -314,7 +314,7 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 95vh;
+        height: 160vh;
     }
 
     .main__content {
@@ -588,4 +588,13 @@ social__media {
         padding: 10px;
         width: 100%;
     }
+}
+
+.contacts__icon--link {
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
 }
