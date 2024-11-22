@@ -598,3 +598,17 @@ social__media {
     align-items: center;
     text-decoration: none;
 }
+
+.pad__right {
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .pad__right {
+        margin-right: 0;
+    }
+}
+
+p.about {
+    font-size: 25px;
+}
